@@ -1,0 +1,6 @@
+[submodule "peano"]
+	path = peano
+	url = https://github.com/smutch/peano.git
+[submodule "cext"]
+	path = cext
+	url = https://github.com/smutch/peano.git
