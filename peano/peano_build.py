@@ -3,6 +3,7 @@ ffibuilder = FFI()
 
 ffibuilder.set_source("peano._peano", "",
                       sources=["cext/src/peano.c"],
+                      extra_compile_args=["-std=c99"]
                       )
 
 ffibuilder.cdef("""
